@@ -5,4 +5,5 @@
   <p><%= item.detail %></p>
   <%= link_to 'Show Items', item_path(item) %>
   <%= link_to 'Edit Items', edit_item_path(item) %>
+  <%= link_to 'Destroy Items', item, method: :delete %>
   <% end %>
